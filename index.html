@@ -67,7 +67,7 @@
   <span class="nx">apple</span><span class="o">:</span> <span class="s2">"am I too long?"</span>
 <span class="p">}</span>
 
-<span class="kd">var</span> <span class="nx">test2</span> <span class="o">=</span> <span class="nx">validator</span><span class="p">.</span><span class="nx">validate</span><span class="p">([</span>
+<span class="kd">var</span> <span class="nx">test</span> <span class="o">=</span> <span class="nx">validator</span><span class="p">.</span><span class="nx">validate</span><span class="p">([</span>
   <span class="p">{</span>
     <span class="nx">name</span><span class="o">:</span> <span class="s2">"banana"</span><span class="p">,</span>
     <span class="nx">value</span><span class="o">:</span> <span class="nx">toBeTested</span><span class="p">.</span><span class="nx">banana</span><span class="p">,</span>
@@ -84,10 +84,10 @@
       <span class="nx">maxLength</span><span class="o">:</span> <span class="s2">"Argh..."</span>
     <span class="p">}</span>
   <span class="p">}</span>
-<span class="p">]);</span> <span class="c1">// test2.apple = "Argh..."</span>
+<span class="p">]);</span> <span class="c1">// test.apple = "Argh..."</span>
 
 <span class="c1">// or</span>
-<span class="kd">var</span> <span class="nx">test2</span> <span class="o">=</span> <span class="nx">validator</span><span class="p">.</span><span class="nx">validate</span><span class="p">(</span><span class="nx">toBeTested</span><span class="p">,</span> <span class="p">[</span>
+<span class="kd">var</span> <span class="nx">test</span> <span class="o">=</span> <span class="nx">validator</span><span class="p">.</span><span class="nx">validate</span><span class="p">(</span><span class="nx">toBeTested</span><span class="p">,</span> <span class="p">[</span>
   <span class="p">{</span>
     <span class="nx">name</span><span class="o">:</span> <span class="s2">"banana"</span><span class="p">,</span>
     <span class="nx">rules</span><span class="o">:</span> <span class="p">{</span>
@@ -102,11 +102,11 @@
       <span class="nx">maxLength</span><span class="o">:</span> <span class="s2">"Argh..."</span>
     <span class="p">}</span>
   <span class="p">}</span>
-<span class="p">]);</span> <span class="c1">// test2.apple = "Argh..."</span>
+<span class="p">]);</span> <span class="c1">// test.apple = "Argh..."</span>
 </pre></div>
       </section>
       <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+        
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
