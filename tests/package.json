@@ -1,0 +1,15 @@
+{
+  "author": {
+    "name": "Nicolas Barbotte",
+    "email": "n.barbotte@gmail.com"
+  },
+  "name": "test",
+  "description": "Js validation.",
+  "version": "1.0.0",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "_npmVersion": "1.1.21",
+  "_nodeVersion": "v0.6.17"
+}
