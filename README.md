@@ -6,7 +6,7 @@ Javascript object validation, jquery.validate style.
 
 Add the source to your html page:
 ```html
-  <script type="text/javascript" src="validator.js"></script>
+<script type="text/javascript" src="validator.js"></script>
 ```
 
 Or require it in node:
