@@ -2,74 +2,14 @@
 
 Javascript object validation, jquery.validate style.
 
-## Setup
-
-Add the source to your html page:
-```html
-<script type="text/javascript" src="validator.js"></script>
-```
-
-Or require it in node:
-```javascript
-var Validator = require('validator.js').Validator;
-```
-
 ## Usage
 
-###Simple validation
+Visit the [home page](http://nicompte.github.com/Validator/index.html).
 
-This validation simply returns true or false.
+## Tests
 
-```javascript
-var Validator = require('validator.js').Validator;
-var test = Validator.rules.required("I'm okay"); //true
-````
+Visit the [test page](http://nicompte.github.com/Validator/tests.html), or run the tests with mocha and chai.
 
-### Object validation
+## License
 
-Returns a message.
-
-```javascript
-// Object validation
-var toBeTested = {
-  banana: 123,
-  apple: "am I too long?"
-}
-
-var test2 = validator.validate([
-  {
-    name: "banana",
-    value: toBeTested.banana,
-    rules: {
-      required: true
-    }
-  },{
-    name: "apple",
-    value: toBeTested.apple,
-    rules: {
-      maxLength: 8
-    },
-    messages: {
-      maxLength: "Argh..."
-    }
-  }
-]); // test2.apple = "Argh..."
-
-// or
-var test2 = validator.validate(toBeTested, [
-  {
-    name: "banana",
-    rules: {
-      required: true
-    }
-  },{
-    name: "apple",
-    rules: {
-      maxLength: 8
-    },
-    messages: {
-      maxLength: "Argh..."
-    }
-  }
-]); // test2.apple = "Argh..."
-```
+Open bar license.
