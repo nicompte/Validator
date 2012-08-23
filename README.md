@@ -1,6 +1,6 @@
 Javascript object validation, jquery.validate style.
 
-###### Simple validation
+##### Simple validation
 
 This validation simply returns true or false.
 
@@ -9,7 +9,7 @@ var Validator = require('validator.js').Validator;
 var test = Validator.rules.required("I'm okay"); //true
 ````
 
-###### Object validation
+##### Object validation
 
 Returns a message.
 
