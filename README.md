@@ -1,6 +1,22 @@
+# Validator
+
 Javascript object validation, jquery.validate style.
 
-##### Simple validation
+## Setup
+
+Add the source to your html page:
+```html
+  <script type="text/javascript" src="validator.js"></script>
+```
+
+Or require it in node:
+```javascript
+var Validator = require('validator.js').Validator;
+```
+
+## Usage
+
+###Simple validation
 
 This validation simply returns true or false.
 
@@ -9,7 +25,7 @@ var Validator = require('validator.js').Validator;
 var test = Validator.rules.required("I'm okay"); //true
 ````
 
-##### Object validation
+### Object validation
 
 Returns a message.
 
